@@ -7,6 +7,7 @@ KINDLY PAY ATTENTION TO LIKING AND FOLLOWING ME ON MATLAB @cyrus kipsang
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 Reading Image Files
 The first step of the pipeline is to read in all .jpg files in the current directory and store them in a cell array. This is achieved using the dir function to get a list of all .jpg files, and then looping over each file and reading it in using the imread function. If an image is RGB, it is converted to grayscale using the rgb2gray function.
+![image](https://user-images.githubusercontent.com/87567301/231258857-3da7126c-4e9b-4b1f-b5ab-c8caf4843165.png)
 
 Preprocessing
 The next step of the pipeline is to preprocess each image to remove noise and enhance contrast. This is done using a series of image processing functions:
